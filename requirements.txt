@@ -1,0 +1,5 @@
+keras
+tensorflow-gpu
+scikit-image
+Pillow
+notebook
