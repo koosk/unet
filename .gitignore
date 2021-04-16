@@ -12,3 +12,4 @@ docker-dev.ini
 data/*
 !data/membrane/
 results/*
+.ipynb_checkpoints
