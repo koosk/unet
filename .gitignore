@@ -13,3 +13,4 @@ data/*
 !data/membrane/
 results/*
 .ipynb_checkpoints
+*.hdf5
