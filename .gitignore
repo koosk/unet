@@ -1,0 +1,14 @@
+.idea
+__pycache__
+/data
+/prof
+/.venv
+/tmp
+.pytest_cache/
+*.pyc
+dev.ini
+docker-dev.ini
+.vscode
+data/*
+!data/membrane/
+results/*
