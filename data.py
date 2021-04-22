@@ -123,7 +123,7 @@ def labelVisualize(num_class,color_dict,img):
 def saveResult(save_path,npyfile,flag_multi_class = False,num_class = 2):
     for i,item in enumerate(npyfile):
         img = labelVisualize(num_class,COLOR_DICT,item) if flag_multi_class else item[:,:,0]
-        print(f"max img value: "+np.max(img))
+        print(f"max img value: {np.max(img)}")
         img *= 255
         img = img.astype(np.uint8)
         io.imsave(os.path.join(save_path,"%d_predict.png"%i),img)
